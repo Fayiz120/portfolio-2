@@ -1,0 +1,263 @@
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    margin: 0;
+}
+
+.logo-image {
+
+    margin-left: 135px;
+    margin-top: 32px;
+    height: 35.02px;
+    width: 171.25px
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.navbar-links {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.002em;
+    margin-top: 40px;
+}
+
+.Home-link {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.nav-item {
+    padding: 0 18px ;
+    color: #ffffffcd;
+}
+
+.navbar-links {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* join button */
+.btn {
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #6034E2;
+    padding: 10px 21px 10px 21px;
+    text-decoration: none;
+    
+}
+
+.btn:hover {
+    background: #502cbd;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4rem;
+    margin-top: 50px;
+    height: min-content;
+}
+
+.Name {
+    color: #502cbd;
+}
+.Name:hover{
+    color: #6034E2;
+}
+.head-section{
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    margin-top: 50px;
+  
+}
+.left{
+    float: left;
+    width: 50%;
+    position: relative;
+}
+/* .heading,.sub-heading{
+    text-align: center;
+} */
+.right{
+    float: left;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.img {
+    height: 200px;
+    width: 230px;
+    margin-top: 70px;
+}
+
+.sub-heading {
+    /* position: absolute; */
+    /* top: 10%;
+    left:10%; */
+    color: grey;
+    /* margin-left: -100px; */
+}
+
+.info-para{
+    margin: 0px 0 30px auto;
+    width:50%;
+    text-align: right;
+    line-height: 2;
+}
+.left-items{
+    text-align: right;
+}
+.scroll{
+    height: fit-content;
+    position: absolute;
+    left: 45%;
+    margin-top: 50px;
+    display: block;
+}
+.scroll-item{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+@keyframes scroll-animation {
+    from {margin-top: 0px;}
+    to {margin-top: 5px;}
+}
+.scroll-item:hover{
+    text-decoration: none;
+    animation-name: scroll-animation;
+    animation-duration: 0.4s;
+    margin-top: 5px;
+}
+
+.skill-row{
+    margin: 100px auto 100px auto;
+    width:50%;
+    text-align: left;
+    line-height: 2;
+}
+.code-img{
+    width:25%; 
+    float:left;
+    margin-right: 30px;
+} 
+#about-me{
+    margin-top: 250px;
+}
+.chill-img{
+    width:25%; 
+    float:right;
+    margin-left: 30px;
+}
+
+.skills h2{
+    text-align: center;
+}
+.bottom{
+    background-color: #6034E2;
+    padding: 50px 0  20px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-link{
+    padding: 0 10px;
+    color: #fff;
+    height: fit-content;
+}
+.copy{
+    font-size: 1rem;
+    padding:0px 0;
+    color:#EAF6F6;
+    text-align: center;
+  }
+  .body-section{
+    
+  }
+  form {
+    
+    width: 400px;
+    margin: 100px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+label {
+    color: #6034e2;
+    font-weight: bold;
+  }
+
+/* input[type=text], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+} */
+input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    transition: border-color 0.3s;
+  }
+
+  input[type="text"]:hover,
+  textarea:hover {
+    border-color: #6034e2;
+  }
+
+  input[type="text"]:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #6034e2;
+    box-shadow: 0px 0px 5px rgba(96, 52, 226, 0.5);
+  }
+
+  button {
+    background-color: #6034e2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #4a1bbf;
+  }
+  .contact-card{
+    width: 300px;
+      background-color: #fff;
+      color: black;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      margin-top: 20px;
+    }
+    .card-link{
+        color: #000;
+    }
